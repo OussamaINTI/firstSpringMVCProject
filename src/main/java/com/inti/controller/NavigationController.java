@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class NavigationController {
 	@RequestMapping(value = "page1URL", method = RequestMethod.GET)
 	public String page1(ModelMap model) {
-		model.addAttribute("msg", "Je suis dans la page 1!!!");
+		model.addAttribute("msg", "Je suis dans la page 111111111!!!");
 		return "page1";
 	}
 
