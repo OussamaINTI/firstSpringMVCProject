@@ -12,7 +12,7 @@ public class HelloController {
 	@RequestMapping(method=RequestMethod.GET) // URL : http://localhost:9090/firstSpringMVCProject/hello
 	public String helloMethod(ModelMap model) {
 		
-		model.addAttribute("msg","Hello world");
+		model.addAttribute("msg","Hello world!!!!!");
 		return "bonjour"; // le nom de la page web avec l'extention .jsp
 	}
 }
